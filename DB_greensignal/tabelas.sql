@@ -12,6 +12,11 @@ CREATE TABLE `status` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
+INSERT INTO `greensignal`.`status` (`status_nome`) VALUES ('Aberta');
+INSERT INTO `greensignal`.`status` (`status_nome`) VALUES ('Em Desenvolvimento');
+INSERT INTO `greensignal`.`status` (`status_nome`) VALUES ('Concluída');
+INSERT INTO `greensignal`.`status` (`status_nome`) VALUES ('Em atraso');
+
 CREATE TABLE `tarefas` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `id_usuario` bigint unsigned NOT NULL,
