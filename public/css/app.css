@@ -1,0 +1,60 @@
+html,body{
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+
+}
+
+
+.divtitulo > h3{
+            
+    color: #4F4F4F;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: -1px;
+
+}
+
+.titulo{
+
+    box-shadow: 2px 4px 9px -7px rgba(0,0,0,0.75);
+    background-color:#708090;        
+    padding: 18px;
+    text-align:center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    height: 10px;
+    color: #fff;    
+    border: 2px solid #B0C4DE; 
+ 
+}
+
+.btn {
+    border: 3px solid #BDB76B;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.subtitulo{
+
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: #4F4F4F;    
+    border-bottom: 2px solid #6B8E23; 
+
+}
+
+.formulario {
+    background-color: #708090;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #B0C4DE;
+
+}
+
+label {
+     color: #fff;
+      font-weight: 700;
+
+}
